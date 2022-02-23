@@ -1,0 +1,111 @@
+
+.container{
+        margin: 0;
+}
+ .container>article{
+     min-height: 400px;
+     width: 75%;
+     background-color: white;
+     float: left;
+ }
+ .container>aside{
+     min-height: 300px;
+     width: 25%;
+     background-color: #bf5c71;
+     float: right;
+ }
+  .container>aside>ul>li>a:hover{
+    color: yellow;
+    text-decoration: underline;
+  }
+ .container>footer{
+     border-top: 3px  double black;
+     line-height: 50px;
+     background-color: white;
+     clear: both;
+ }
+ 
+ .container>footer>div{
+     float: left;
+
+ }
+ 
+.container>footer>div>div>a:hover{
+      color: blue;
+     background-color: white;
+
+
+}
+
+ .container>nav>a{
+     color: white;
+     text-decoration: none;
+     margin: 0 10px;
+
+ }
+ .container>nav>a:hover{
+     color: green;
+     text-decoration: underline;
+ }
+ .container>menu>ul>li{
+    display: inline-block;
+    position: relative;
+}
+.container>menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.container>menu>ul>li>a:hover{
+    color: yellow;
+}
+.container>menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 30;
+    background-color: orangered;
+    text-align: center;
+}
+
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.container a{
+    background: no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted white;
+    color: black;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.container a:hover{
+    background: no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: yellowgreen;
+    color: white;
+}
+.thuonghieu{
+    text-align: center;
+    float: left;
+    border: 0px solid black;
+    min-width: 1343px;
+    margin: 0px ;
+}
+.footer2{
+    border-top: 3px  double black;
+    line-height: 50px;
+    clear: both;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
